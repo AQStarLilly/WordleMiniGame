@@ -38,7 +38,7 @@ namespace Wordle_Mini_Game
             while (true)
             {
                 //starts the game asking user to choose a word then responds depending on what word was chosen
-                Console.WriteLine("Guess a 5 Letter Word " + secretWord);
+                Console.WriteLine("Guess a 5 Letter Word! ");
                 //converts your word to upper case if you typed it in lower case
                 string input = Console.ReadLine().ToUpper();
                 //if the word user chooses is not 5 digits it will stop you and let you know
@@ -55,23 +55,29 @@ namespace Wordle_Mini_Game
                         break;
                     }
                     else
-                    {
+                    {                    
                         //starts the correction process and will tell you if a letter is correct    
                         for (int i = 0; i < secretWord.Length; i++)
-                        {
+                        {                           
                             if (secretWord[i] == input[i])
                             {
+                                Console.ForegroundColor = ConsoleColor.Green;
                                 Console.WriteLine(input[i]);
+                                Console.ResetColor();
                             }
                             else if (secretWord.Contains(input[i]))
                             {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("~");
+                                Console.ResetColor();
                             }
                             else
                             {
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("#");
+                                Console.ResetColor();
                             }
-                        }
+                        }                       
                         Console.WriteLine("Guess Again");
                     }
                 }
