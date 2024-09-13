@@ -1,0 +1,7 @@
+C:\Users\W0497478\source\repos\WordleMiniGame\WordleMiniGame\bin\Debug\WordleMiniGame.exe.config
+C:\Users\W0497478\source\repos\WordleMiniGame\WordleMiniGame\bin\Debug\WordleMiniGame.exe
+C:\Users\W0497478\source\repos\WordleMiniGame\WordleMiniGame\bin\Debug\WordleMiniGame.pdb
+C:\Users\W0497478\source\repos\WordleMiniGame\WordleMiniGame\obj\Debug\WordleMiniGame.csproj.AssemblyReference.cache
+C:\Users\W0497478\source\repos\WordleMiniGame\WordleMiniGame\obj\Debug\WordleMiniGame.csproj.CoreCompileInputs.cache
+C:\Users\W0497478\source\repos\WordleMiniGame\WordleMiniGame\obj\Debug\WordleMiniGame.exe
+C:\Users\W0497478\source\repos\WordleMiniGame\WordleMiniGame\obj\Debug\WordleMiniGame.pdb
